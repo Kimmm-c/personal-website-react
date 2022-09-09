@@ -5,9 +5,9 @@ import { Link } from 'react-scroll'
 
 const home = () => {
     return (
-        <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-purple-800'>
+        <div name="home" className='w-full bg-gradient-to-b from-black via-black to-purple-800 pt-20'>
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-                <div className="flex flex-col justify-center h-full">
+                <div className="flex flex-col justify-center">
                     <h2 className='text-3xl sm:text-5xl font-bold text-white'>I'm an active learner who loves to take on challenges</h2>
 
                     <p className='text-gray-300 py-4 max-w-md font-extralight'>
@@ -21,7 +21,7 @@ const home = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="">
+                <div className="md:w-1/2">
                     <img src={HeroImage} alt="portrait" className='rounded-2xl mx-auto w-4/5 md:w-full'/>
                 </div>
             </div>
