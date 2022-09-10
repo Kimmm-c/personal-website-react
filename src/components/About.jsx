@@ -9,14 +9,9 @@ const About = () => {
                 </div>
 
                 <p className='text-xl'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni quam vitae dicta ipsam dignissimos aspernatur assumenda, obcaecati, maiores doloribus magnam voluptatibus. Atque tempora ducimus iusto a fuga exercitationem, hic quis.
+                    I am a BCIT Computer Systems student. My projects were built using Python, Javascript (Node, EJS, Express, React), NoSQL (Firestore, MongoDB), SQL (MySQL), and HTML/CSS/Boostrap. I'm interested in learning more about Python Automation/Web Scraping, Cloud Computing, and Entrepreneurship.  
                 </p>
 
-                <br />
-
-                <p className='text-xl'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, deleniti sed cum fugit dignissimos ex labore eveniet suscipit ea ducimus, minus quis nesciunt. Voluptas cumque, aspernatur labore nulla vel illo.
-                </p>
             </div>
         </div>
     )
