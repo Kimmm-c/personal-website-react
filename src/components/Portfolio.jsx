@@ -19,7 +19,7 @@ const Portfolio = () => {
         {
             id: 3,
             src: friend,
-            href: 'https://friend-comp-1800.firebaseapp.com/html/meditation/index.html'
+            href: 'https://dtc09-friend.netlify.app/login.html'
         },
     ]
 
