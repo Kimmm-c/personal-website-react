@@ -24,11 +24,11 @@ const Portfolio = () => {
     ]
 
     return (
-        <div name="portfolio" className='bg-gradient-to-b from-gray-900 to-indigo-900 w-full text-white'>
+        <div name="portfolio" className='bg-gradient-to-b from-cyan-200 to-white w-full text-white'>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                    <p className='py-10 text-xl'>Some of my projects.</p>
+                    <p className='text-4xl font-bold text-cyan-700'>Portfolio</p>
+                    <p className='py-5 text-base font-extralight text-black'>Please check out some of my projects. They are web applications built following mobile-first design principles. These projects gave me a chance to experience with different tools such as Javascript (Node, EJS, Express, React), NoSQL (Firestore, MongoDB), SQL (MySQL), and HTML/CSS/Boostrap.</p>
                 </div>
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -36,7 +36,7 @@ const Portfolio = () => {
                         portfolios.map(({ id, src, href }) => (
                             <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
                                 <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
-                                <div className="flex items-center justify-center">
+                                <div className="flex items-center justify-center text-black">
                                     <a className='group w-full text-center px-6 py-3 m-4 duration-200 hover:scale-110' href={href} target="_blank" rel="noreferrer">Open</a>
                                 </div>
                             </div>
