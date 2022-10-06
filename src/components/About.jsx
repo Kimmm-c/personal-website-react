@@ -9,10 +9,10 @@ const About = () => {
                     <p className='text-4xl font-bold text-cyan-700'>What do I bring?</p>
                 </div>
                 <p className='pb-5 text-base text-black font-extralight'>
-                    I'm going to finish my first year of BCIT Computer Systems program this December and I'm looking for a Co-op opportunity starting from January 2023. Wait, one-year experience is a bit short, isn't it? Well, here is my offer to make up for you:
+                    I'm going to finish my first year of BCIT Computer Systems program this December and I'm looking for a Co-op opportunity starting from January 2023. Wait, one-year experience is a bit short, isn't it? Well, here is my offer to make it up to you:
                 </p>
                 <p className='text-xl text-black font-extralight'>
-                    <ul className="pl-5 font-normal text-cyan-700">
+                    <ul className="font-normal text-cyan-700">
                         <li>
                             - A passionate problem solver with a great perseverance.
                         </li>
@@ -27,7 +27,7 @@ const About = () => {
                     </ul>
                 </p>
                 <p className='text-base text-black font-extralight pt-5'>
-                If my offer sounds fair to you, don't hesitate to connect! And don't forget to check out my projects and technical experience right below.
+                Besides, I have a diverse work experience ranging from Accounting to Customer Service. This means I come with interpersonal skills and attention to details! If my offer sounds fair to you, let's get in touch! What's more? Please check out my projects and technical experience right below.
                 </p>
 
 

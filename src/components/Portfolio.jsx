@@ -28,7 +28,7 @@ const Portfolio = () => {
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className='text-4xl font-bold text-cyan-700'>Portfolio</p>
-                    <p className='pt-5 text-base font-extralight text-black'>Please check out some of my projects. They are web applications built following mobile-first design principles. These projects gave me a chance to experience with different tools such as Javascript (Node, EJS, Express, React), NoSQL (Firestore, MongoDB), SQL (MySQL), and HTML/CSS/Boostrap.</p>
+                    <p className='pt-5 text-base font-extralight text-black'>My project heavily focused on web application development following the mobile-first design principles. These projects gave me a chance to experience with different tools such as Javascript (Node, EJS, Express, React), NoSQL (Firestore, MongoDB), SQL (MySQL), and HTML/CSS/Boostrap.</p>
                     <p className='py-5 text-base font-extralight text-black'>Other than web development tools, I also have experience working with Python (Unittest) and Java.</p>
                 </div>
 
