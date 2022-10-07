@@ -8,7 +8,7 @@ const Contact = () => {
                     <p className='text-4xl font-bold'>Contact</p>
                     <p className='pt-5 text-base font-extralight'>Phone: 604-445-0893</p>
                     <p className='text-base font-extralight'>Email: kchung68@my.bcit.ca</p>
-                    <p className='pt-5 text-base font-extralight'>Another option is to submit the form below!</p>
+                    <p className='pt-5 text-base font-extralight'>Or submit the request form below!</p>
                 </div>
 
                 <div className='flex justify-center items-center'>
