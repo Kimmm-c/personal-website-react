@@ -15,7 +15,7 @@ const About = () => {
                     Wait, one-year experience is a bit short, isn't it?
                 </p>
                 <p className='pb-5 text-base text-black font-extralight'>
-                    But from a different perspective, wouldn't you prefer someone who can quickly learn and get straight to the business on your team? Here is what I bring to table:
+                    But from a different perspective, wouldn't you want to work with someone who can quickly learn and get straight to the business? Here is what I bring to table:
                 </p>
                 <p className='text-base text-black'>
                     <ul className="font-normal text-cyan-900 pl-7">
