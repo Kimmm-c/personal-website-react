@@ -26,7 +26,7 @@ const Portfolio = () => {
     return (
         <div name="portfolio" className='bg-gradient-to-b from-cyan-200 to-white w-full text-white'>
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-                <div className="pb-8">
+                <div className="pb-8 text-justify">
                     <p className='text-4xl font-bold text-cyan-700'>Portfolio</p>
                     <p className='pt-5 text-base font-extralight text-black'>My projects heavily focused on web application development following the mobile-first design principles. These projects gave me a chance to experience with different tools such as Javascript (Node, EJS, Express, React), NoSQL (Firestore, MongoDB), SQL (MySQL), and HTML/CSS/Boostrap.</p>
                     <p className='py-5 text-base font-extralight text-black'>Other than web development tools, I also have experience working with Python (Unittest) and Java (OOP).</p>

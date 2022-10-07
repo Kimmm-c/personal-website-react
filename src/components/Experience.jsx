@@ -52,7 +52,7 @@ const Experience = () => {
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white pt-10'>
                 <div>
                     <p className='text-4xl font-bold text-cyan-700'>Experience</p>
-                    <p className='py-5 text-base font-extralight text-black'>The technologies I have worked with.</p>
+                    <p className='py-5 text-base font-extralight text-black text-justify'>The technologies I have worked with.</p>
                 </div>
 
                 <div className='grid grid-cols-2 sm:grid-cols-3 gap-8 px-12 sm:px-0 w-full py-8 text-center'>
