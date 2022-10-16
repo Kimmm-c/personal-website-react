@@ -2,25 +2,32 @@ import React from 'react'
 import pokeebar from '../assets/portfolio/pokeebar.png'
 import foodbuddy from '../assets/portfolio/foodbuddy.png'
 import friend from '../assets/portfolio/friend.png'
+import swordmen from '../assets/portfolio/swordmen.png'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id: 1,
+            src: swordmen,
+            href: 'https://zesty-salamander-7a9682.netlify.app'
+        },
+        {
+            id: 2,
             src: pokeebar,
             href: 'https://stormy-springs-83483.herokuapp.com/home'
         },
         {
-            id: 2,
+            id: 3,
             src: foodbuddy,
             href: 'https://dtc04-foodbuddy.herokuapp.com'
         },
         {
-            id: 3,
+            id: 4,
             src: friend,
             href: 'https://dtc09-friend.netlify.app/login.html'
         },
+        
     ]
 
     return (
@@ -36,7 +43,7 @@ const Portfolio = () => {
                     {
                         portfolios.map(({ id, src, href }) => (
                             <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
-                                <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
+                                <img src={src} alt="" className="rounded-md duration-200 hover:scale-105 h-100" />
                                 <div className="flex items-center justify-center text-black">
                                     <a className='group w-full text-center px-6 py-3 m-4 duration-200 hover:scale-110' href={href} target="_blank" rel="noreferrer">Open</a>
                                 </div>
