@@ -17,21 +17,19 @@ const About = () => {
                 <p className='pb-5 text-base text-black font-extralight text-justify'>
                     But from a different perspective, wouldn't you want to work with someone who can quickly learn and get straight to the business? Here is what I bring to table:
                 </p>
-                <p className='text-base text-black'>
-                    <ul className="font-normal text-cyan-900 pl-7">
-                        <li>
-                            - A passionate problem solver with a great perseverance.
-                        </li>
+                <ul className="font-normal text-cyan-900 pl-7 text-base text-black">
+                    <li>
+                        - A passionate problem solver with a great perseverance.
+                    </li>
 
-                        <li>
-                            - A responsible and reliable teammate.
-                        </li>
+                    <li>
+                        - A responsible and reliable teammate.
+                    </li>
 
-                        <li>
-                            - A hunger for real-world experience and technologies.
-                        </li>
-                    </ul>
-                </p>
+                    <li>
+                        - A hunger for real-world experience and technologies.
+                    </li>
+                </ul>
                 <p className='text-base text-black font-extralight pt-5 text-justify'>
                     Besides, I have a diverse work experience ranging from Accounting to Customer Service. This means I come with interpersonal skills and attention to details! If my offer sounds fair to you, let's get in touch!
                 </p>

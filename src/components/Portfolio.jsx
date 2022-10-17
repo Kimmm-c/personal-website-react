@@ -10,22 +10,26 @@ const Portfolio = () => {
         {
             id: 1,
             src: swordmen,
-            href: 'https://zesty-salamander-7a9682.netlify.app'
+            href: 'https://zesty-salamander-7a9682.netlify.app',
+            description: 'A simple fighting game built using JavaScript. The purpose of this project is to learn animation!'
         },
         {
             id: 2,
             src: pokeebar,
-            href: 'https://stormy-springs-83483.herokuapp.com/home'
+            href: 'https://stormy-springs-83483.herokuapp.com/home',
+            description: 'A Pokemon-search web application. Built using MongoDB, Express.js, Node.js, jQuery, REST API'
         },
         {
             id: 3,
             src: foodbuddy,
-            href: 'https://dtc04-foodbuddy.herokuapp.com'
+            href: 'https://dtc04-foodbuddy.herokuapp.com',
+            description: 'A web-application aiming to sooth the pain from grocery expense during inflation.'
         },
         {
             id: 4,
             src: friend,
-            href: 'https://dtc09-friend.netlify.app/login.html'
+            href: 'https://dtc09-friend.netlify.app/login.html',
+            description: 'My first collaborative project. This web app was designed to help Canadian elite athletes to cope with stress.'
         },
         
     ]
@@ -41,12 +45,14 @@ const Portfolio = () => {
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
                     {
-                        portfolios.map(({ id, src, href }) => (
+                        portfolios.map(({ id, src, href, description }) => (
                             <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
                                 <img src={src} alt="" className="rounded-md duration-200 hover:scale-105 h-100" />
-                                <div className="flex items-center justify-center text-black">
-                                    <a className='group w-full text-center px-6 py-3 m-4 duration-200 hover:scale-110' href={href} target="_blank" rel="noreferrer">Open</a>
+                                <div className="flex flex-col items-center justify-center text-black">
+                                    <a className='group w-full text-center px-6 m-4 duration-200 hover:scale-110' href={href} target="_blank" rel="noreferrer">OPEN</a>
+                                    <p className='text-center pb-5 px-3 text-base text-black font-extralight'>{description}</p>
                                 </div>
+                                
                             </div>
 
                         ))
