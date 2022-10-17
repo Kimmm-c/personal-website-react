@@ -11,7 +11,7 @@ const Portfolio = () => {
             id: 1,
             src: swordmen,
             href: 'https://zesty-salamander-7a9682.netlify.app',
-            description: 'A simple fighting game built using JavaScript. The purpose of this project is to learn animation!'
+            description: 'A simple fighting game built using object-oriented JavaScript. The purpose of this project is to learn animation!'
         },
         {
             id: 2,
