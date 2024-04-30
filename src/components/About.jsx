@@ -3,7 +3,7 @@ import kim from '../assets/kim.png'
 
 const About = () => {
     return (
-        <div name="about" className='w-full bg-gradient-to-b from-cyan-50 to-cyan-200 text-black p-10'>
+        <div name="about" className='w-full text-black md:p-10 p-5'>
             <div className="flex flex-col md:flex-row px-10 justify-around">
                 <div className="md:w-1/3">
                     <img src={kim} alt="profile_pic" className='rounded-2xl' />
