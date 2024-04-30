@@ -17,7 +17,7 @@ const About = () => {
                         <li> Will Try and Do Try Mindset</li>
                     </ul>
                     <br />
-                    <p>I am a dedicated Computer Systems Technology student enrolled in the BCIT Co-op Program, actively pursuing opportunities to merge classroom knowledge with real-world industry experience.</p>
+                    <p>I am a dedicated Computer Systems Technology student majored in Predictive Modeling, actively pursuing opportunities to merge classroom knowledge with real-world industry experience.</p>
                     <br />
                     <p>Driven by a passion for exploring and mastering new technologies, I thrive in dynamic environments where innovation and creativity are valued. </p>
                     <br />
