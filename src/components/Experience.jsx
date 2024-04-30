@@ -1,70 +1,78 @@
 import React from 'react'
-import html from "../assets/html.png"
-import css from "../assets/css.png"
-import javascript from "../assets/javascript.png"
-import react from "../assets/react.png"
-import tailwind from "../assets/tailwind.png"
-import github from "../assets/github.png"
 
 const Experience = () => {
+    const work_experience = [
+        {
+            title: 'Junior Developer at CAMS Software',
+            intro: 'CAMS Software offers a comprehensive Transportation Suite tailored for the grocery industry, managing inbound products, order capture, route optimization, dispatch, ELD, driver payroll, and reporting. During my time at CAMS, I had opportunity to:',
+            bullets: [
+                "Develop a conference website for hosting the company’s Summit events, utilizing Angular, Bootstrap, and .NET.",
+                "Utilize SQL Server stored procedures to support the business logic of the company’s desktop software and web application. ",
+                "Enhance efficiency with more than 50 automated tests using Cypress and Typescript.",
+                "Collaborate with a co-op peer to seamlessly integrate the test suite into Azure's CI/CD pipeline.",
+                "Documente test suite and procedures in Confluence for easy reference."
 
-    const tools = [
+            ]
+        }
+    ]
+
+    const industry_projects = [
         {
-            id: 1,
-            src: html,
-            title: "HTML",
-            style: 'shadow-orange-500'
-        },
-        {
-            id: 2,
-            src: css,
-            title: "CSS",
-            style: 'shadow-blue-500'
-        },
-        {
-            id: 3,
-            src: javascript,
-            title: "Javascript",
-            style: 'shadow-yellow-500'
-        },
-        {
-            id: 4,
-            src: react,
-            title: "React",
-            style: 'shadow-blue-600'
-        },
-        {
-            id: 5,
-            src: tailwind,
-            title: "Tailwind",
-            style: 'shadow-sky-400'
-        },
-        {
-            id: 6,
-            src: github,
-            title: "GitHub",
-            style: 'shadow-gray-500'
-        },
+            title: 'Developer at Stack Moxie',
+            intro: "Stack Moxie offers a Revenue Observability platform empowering companies to manage revenue stacks and gain insights into their revenue infrastructure. Built atop an open-source behavioral testing framework, it facilitates testing various scenarios encompassing both front-end and API-driven aspects. In a group of 4, we:",
+            bullets: [
+                "Expanded the scenario-based test library to assess multiple large language models like GPT, Gemini, and Anthropic.",
+                "Extended the behavioural-testing framework to allow response time and token cost analysis. ",
+                "Implemented a logging system to store the test results in Azure blob storage.",
+                "Created a synthetic data generation tool which aims to enhance user experience."
+                
+            ]
+        }
     ]
 
     return (
-        <div name="experience" className='bg-gradient-to-b from-white via-white to-cyan-600 w-full h-full'>
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white pt-10'>
+        <div name="experience" className='bg-x-light-grey w-full h-full p-10 text-grey'>
+            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p className='text-4xl font-bold text-cyan-700'>Experience</p>
-                    <p className='py-5 text-base font-extralight text-black text-justify'>The technologies I have worked with.</p>
+                    <p className='text-3xl font-bold text-dark-turquoise'>Experience</p>
                 </div>
 
-                <div className='grid grid-cols-2 sm:grid-cols-3 gap-8 px-12 sm:px-0 w-full py-8 text-center'>
+                <div className="py-5">
+                    <p className='text-xl font-bold text-dark-turquoise'>Co-op Experience</p>
                     {
-                        tools.map(({ id, src, title, style }) => (
-                            <div key={id} className={'shadow-md rounded-lg py-2 hover:scale-105 duration-500 ' + style}>
-                                <img src={src} alt="" className="w-20 mx-auto" />
-                                <p className='mt-4'>{title}</p>
+                        work_experience.map(({ title, intro, bullets }) => (
+                            <div key={title}>
+                                <p className='text-lg text-dark-turquoise'>{title}</p>
+                                <p>{intro}</p>
+                                <ul className='list-disc pl-7'>
+                                    {
+                                        bullets.map((bullet, index) => (
+                                            <li key={index} className='text-base'>{bullet}</li>
+                                        ))
+                                    }
+                                </ul>
                             </div>
                         ))
                     }
+                </div>
 
+                <div className="py-5">
+                    <p className='text-2xl font-bold text-dark-turquoise'>Industry Projects</p>
+                    {
+                        industry_projects.map(({ title, intro, bullets }) => (
+                            <div key={title}>
+                                <p className='text-lg text-dark-turquoise'>{title}</p>
+                                <p>{intro}</p>
+                                <ul className='list-disc pl-7'>
+                                    {
+                                        bullets.map((bullet, index) => (
+                                            <li key={index} className='text-base'>{bullet}</li>
+                                        ))
+                                    }
+                                </ul>
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
         </div>

@@ -1,42 +1,28 @@
 import React from 'react'
+import kim from '../assets/kim.png'
 
 const About = () => {
     return (
-        <div name="about" className='w-full bg-gradient-to-b from-cyan-50 to-cyan-200 text-black pt-10'>
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
-                <div className="pb-8">
-                    <p className='text-4xl font-bold text-cyan-700 line-through'>About</p>
-                    <p className='text-4xl font-bold text-cyan-700'>What do I bring?</p>
+        <div name="about" className='w-full bg-gradient-to-b from-cyan-50 to-cyan-200 text-black p-10'>
+            <div className="flex flex-col md:flex-row px-10 justify-around">
+                <div className="md:w-1/3">
+                    <img src={kim} alt="profile_pic" className='rounded-2xl' />
                 </div>
-                <p className='pb-5 text-base text-black font-extralight text-justify'>
-                    I'm a BCIT Computer Systems student who is looking for a Co-op opportunity (starting from January, 2023) after my first year of education.
-                </p>
-                <p className='pb-5 text-base text-black font-extralight text-justify'>
-                    Wait, one-year experience is a bit short, isn't it?
-                </p>
-                <p className='pb-5 text-base text-black font-extralight text-justify'>
-                    But from a different perspective, wouldn't you want to work with someone who can quickly learn and get straight to the business? Here is what I bring to table:
-                </p>
-                <ul className="font-normal text-cyan-900 pl-7 text-base text-black">
-                    <li>
-                        - A passionate problem solver with a great perseverance.
-                    </li>
-
-                    <li>
-                        - A responsible and reliable teammate.
-                    </li>
-
-                    <li>
-                        - A hunger for real-world experience and technologies.
-                    </li>
-                </ul>
-                <p className='text-base text-black font-extralight pt-5 text-justify'>
-                    Besides, I have a diverse work experience ranging from Accounting to Customer Service. This means I come with interpersonal skills and attention to details! If my offer sounds fair to you, let's get in touch!
-                </p>
-                <p className='text-base text-black font-extralight pt-5 text-justify'>
-                    What's more? Please check out my projects and technical experience right below.
-                </p>
-
+                <div className="md:w-1/2 m-5 text-base font-light">
+                    <p className="text-4xl font-bold text-grey">About</p>
+                    <br />
+                    <ul class="list-image-checkmark list-inside">
+                        <li> Team Player</li>
+                        <li> Tech Enthusiast</li>
+                        <li> Will Try and Do Try Mindset</li>
+                    </ul>
+                    <br />
+                    <p>I am a dedicated Computer Systems Technology student enrolled in the BCIT Co-op Program, actively pursuing opportunities to merge classroom knowledge with real-world industry experience.</p>
+                    <br />
+                    <p>Driven by a passion for exploring and mastering new technologies, I thrive in dynamic environments where innovation and creativity are valued. </p>
+                    <br />
+                    <p className="">If my profile resonates with your requirements, please don't hesitate to contact me!</p>
+                </div>
             </div>
         </div>
     )
