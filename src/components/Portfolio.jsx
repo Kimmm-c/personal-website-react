@@ -1,5 +1,5 @@
 import React from 'react'
-import pokeebar from '../assets/portfolio/pokeebar.png'
+import neo from '../assets/portfolio/neo.png'
 import swordmen from '../assets/portfolio/swordmen.png'
 import fitnesstracker from '../assets/portfolio/pose-est.png'
 
@@ -12,14 +12,14 @@ const Portfolio = () => {
             description: "A Python-based Machine Learning endeavor, utilizes Mediapipe’s Pose Estimation model to monitor workout sessions. This experimental project delves into the practical applications of pre-trained models."
         },
         {
+            src: neo,
+            href: 'https://kimmmc.pythonanywhere.com/about/',
+            description: 'This project employed ML libraries (eg. Scikit-learn, Matplotlib, seaborn, etc...) to develop a binary classification model, predicting whether an outer space object poses a potential risk to the Earth. The model is trained using NASA’s Near-Earth Object dataset, with more than 90,000 entry points.'
+        },
+        {
             src: swordmen,
             href: 'https://zesty-salamander-7a9682.netlify.app',
             description: 'A fighting game built using object-oriented JavaScript.'
-        },
-        {
-            src: pokeebar,
-            href: 'https://stormy-springs-83483.herokuapp.com/home',
-            description: 'A Pokemon-search web application. Built using MongoDB, Express.js, Node.js, jQuery, REST API'
         },
     ]
 
