@@ -30,22 +30,22 @@ const Home = () => {
                 </div>
                 <div>
                     <p>
-                        I am a Computer Science student majored in Predictive Modeling, actively pursuing opportunities to merge classroom knowledge with real-world industry experience. I had experience working in different roles such as web developer and automation test engineer.
+                        I am a dedicated Computer Science student with a specialization in Predictive Modeling, actively seeking opportunities to apply my academic knowledge to real-world industry challenges. With experience in various roles, including web development and automation testing, I bring a versatile skill set and a passion for technology to every project.
                     </p>
                     <div className="container">
-                    {
-                        abouts.map((trait, index) => (
-                            <p key={index}>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-check2-square" viewBox="0 0 16 16">
-                                    <path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z" />
-                                    <path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0" />
-                                </svg>
-                                {` ${trait}`}
-                            </p>
-                        ))
-                    }
+                        {
+                            abouts.map((trait, index) => (
+                                <p key={index}>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-check2-square" viewBox="0 0 16 16">
+                                        <path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z" />
+                                        <path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0" />
+                                    </svg>
+                                    {` ${trait}`}
+                                </p>
+                            ))
+                        }
                     </div>
-                    <p>If my profile resonates with your requirements, please don't hesitate to contact me!</p>
+                    <p>If my background and skills align with your needs, I would love to connect and discuss how I can contribute to your team!</p>
                 </div>
             </div>
 
