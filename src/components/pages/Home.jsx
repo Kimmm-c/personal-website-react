@@ -6,7 +6,7 @@ import kim from '../../assets/kim.png'
 const Home = () => {
     const [activePage, setActivePage] = useState(null);
     const colWrapperClass = "col-sm-12 col-lg-4";
-    const abouts = ['Team Player', 'Tech Enthusiast', 'Business Focus']
+    const abouts = ['Team Player', 'Tech Enthusiast', 'Business Acumen']
 
     const Pages = Object.freeze({
         EXPERIENCE: 'Experience',
