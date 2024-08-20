@@ -3,10 +3,9 @@ import ExpandableSection from '../common/ExpandableSection';
 import neo from '../../assets/projects/neo.png';
 import fitnesstracker from '../../assets/projects/pose-est.png';
 import appDemo from '../../assets/projects/appDemo.mp4';
+import cli from '../../assets/projects/cli-automation-tool.png'
 
 const Projects = () => {
-    console.log(appDemo);
-    console.log(neo);
     const projects = [
         {
             src: '',
@@ -25,7 +24,7 @@ const Projects = () => {
             title: "E-commerce Website"
         },
         {
-            src: '',
+            src: cli,
             href: 'https://github.com/Kimmm-c/automate-create-remote-repo',
             video: '',
             contents: [

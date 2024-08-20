@@ -13,7 +13,11 @@ const ExpandableSection = ({ section, sectionId, contents, href = '', image = ''
             <div className="my-3">
                 {
                     <div className="collapse p-3 rounded bg-light opacity-75 content-container" id={sectionId}>
-                        {image && <img src={image} alt="project-img" className="my-3 img-fluid" />}
+                        {image &&
+                            <div className="w-100 d-flex justify-content-center align-items-center p-3">
+                                <img src={image} alt="project-img" className="w-75" />
+                            </div>
+                        }
                         {video &&
                             <div className="w-100 d-flex justify-content-center align-items-center p-3">
                                 <div className="w-75">
