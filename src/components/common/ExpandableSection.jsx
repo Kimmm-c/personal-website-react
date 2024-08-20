@@ -1,7 +1,7 @@
 import React from 'react';
 import Content from './Content';
 
-const ExpandableSection = ({ section, sectionId, image, contents, href }) => {
+const ExpandableSection = ({ section, sectionId, contents, href = '', image = '', video = '' }) => {
 
     return (
         <div className="container container-fluid my-3">
@@ -13,7 +13,18 @@ const ExpandableSection = ({ section, sectionId, image, contents, href }) => {
             <div className="my-3">
                 {
                     <div className="collapse p-3 rounded bg-light opacity-75 content-container" id={sectionId}>
-                        <img src={image} alt="project-img" className="my-3 img-fluid" />
+                        {image && <img src={image} alt="project-img" className="my-3 img-fluid" />}
+                        {video &&
+                            <div className="w-100 d-flex justify-content-center align-items-center p-3">
+                                <div className="w-75">
+                                    <video
+                                        src={video}
+                                        controls
+                                        className='w-100'
+                                    ></video>
+                                </div>
+                            </div>
+                        }
                         {
                             contents.map(({ title, text }, index) => (
                                 <div key={index}>
@@ -21,12 +32,14 @@ const ExpandableSection = ({ section, sectionId, image, contents, href }) => {
                                 </div>
                             ))
                         }
-                        <p>
-                            <a href={href} className="link-underline link-opacity-50-hover link-underline-opacity-0" target="_blank" rel="noreferrer">
-                                {`Open Project `}
-                                <i className="bi bi-box-arrow-up-right"></i>
-                            </a>
-                        </p>
+                        {
+                            href && <p>
+                                <a href={href} className="link-underline link-opacity-50-hover link-underline-opacity-0" target="_blank" rel="noreferrer">
+                                    {`Open Project `}
+                                    <i className="bi bi-box-arrow-up-right"></i>
+                                </a>
+                            </p>
+                        }
                     </div>
                 }
             </div>
