@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ToggleSection from '../common/ToggleSection';
 import Button from '../common/Button';
-import kim from '../../assets/kim.png'
+import kim from '../../assets/kim.JPG'
 
 const Home = () => {
     const [activePage, setActivePage] = useState(null);
