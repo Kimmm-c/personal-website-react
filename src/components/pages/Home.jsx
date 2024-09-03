@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
 
                 <div className="container px-5 py-3">
-                    <img src={kim} alt="profile-picture" className="rounded img-fluid" />
+                    <img src={kim} alt="profile-picture" className="rounded img-fluid w-25" />
                 </div>
                 <div>
                     <p>
