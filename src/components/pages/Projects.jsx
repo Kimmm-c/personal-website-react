@@ -3,10 +3,27 @@ import ExpandableSection from '../common/ExpandableSection';
 import neo from '../../assets/projects/neo.png';
 import fitnesstracker from '../../assets/projects/pose-est.png';
 import appDemo from '../../assets/projects/appDemo.mp4';
-import cli from '../../assets/projects/cli-automation-tool.png'
+import cli from '../../assets/projects/cli-automation-tool.png';
+import escaper from '../../assets/projects/esaper.png'
 
 const Projects = () => {
     const projects = [
+        {
+            src: escaper,
+            href: 'https://github.com/Kimmm-c/escaper-game-dev',
+            video: '',
+            contents: [
+                {
+                    title: "Project Description",
+                    text: "This project is focused on learning C++. Escaper is a C++ text-based adventure game where players navigate a grid-based map using the arrow keys, starting from the top-left corner and aiming to reach the bottom-right corner while avoiding walls. The difficulty level and map size are customizable, offering a new challenge with every playthrough."
+                },
+                {
+                    title: "Technologies",
+                    text: "C++"
+                }
+            ],
+            title: "Escaper"
+        },
         {
             src: '',
             href: '',
