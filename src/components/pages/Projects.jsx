@@ -1,13 +1,13 @@
 import React from 'react';
 import ExpandableSection from '../common/ExpandableSection';
-import neo from '../../assets/projects/neo.png';
-import fitnesstracker from '../../assets/projects/pose-est.png';
-import appDemo from '../../assets/projects/appDemo.mp4';
+// import neo from '../../assets/projects/neo.png';
+// import fitnesstracker from '../../assets/projects/pose-est.png';
+// import appDemo from '../../assets/projects/appDemo.mp4';
 import allez from '../../assets/projects/allez.mp4';
 import stone from '../../assets/projects/stone.mp4';
 import sunkencity from '../../assets/projects/sunkencity.mp4';
-import cli from '../../assets/projects/cli-automation-tool.png';
-import escaper from '../../assets/projects/esaper.png'
+// import cli from '../../assets/projects/cli-automation-tool.png';
+// import escaper from '../../assets/projects/esaper.png'
 
 const Projects = () => {
     const projects = [
