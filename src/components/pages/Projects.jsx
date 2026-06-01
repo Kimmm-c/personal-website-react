@@ -29,7 +29,7 @@ const Projects = () => {
         },
         {
             src: '',
-            href: '',
+            href: 'https://github.com/Kimmm-c/Stone.git',
             video: 'stone',
             contents: [
                 {
