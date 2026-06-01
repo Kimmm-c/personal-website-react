@@ -3,11 +3,62 @@ import ExpandableSection from '../common/ExpandableSection';
 import neo from '../../assets/projects/neo.png';
 import fitnesstracker from '../../assets/projects/pose-est.png';
 import appDemo from '../../assets/projects/appDemo.mp4';
+import allez from '../../assets/projects/allez.mp4';
+import stone from '../../assets/projects/stone.mp4';
+import sunkencity from '../../assets/projects/sunkencity.mp4';
 import cli from '../../assets/projects/cli-automation-tool.png';
 import escaper from '../../assets/projects/esaper.png'
 
 const Projects = () => {
     const projects = [
+        {
+            src: '',
+            href: '',
+            video: 'sunkencity',
+            contents: [
+                {
+                    title: "Project Description",
+                    text: "A 2D platformer vertical slice developed in Unity. I designed and built a cohesive level set in a submerged mythical city, using environmental storytelling, pacing, and spatial layout to guide player progression. I implemented puzzle-driven gameplay sequences that gate key objectives and reinforce exploration and discovery. I also integrated custom Blender assets with existing game resources to maintain visual consistency and support a unified atmospheric style across the level."
+                },
+                {
+                    title: "Technologies",
+                    text: "Blender, Unity, C#, Lighting, VFX"
+                }
+            ],
+            title: "Sunken City"
+        },
+        {
+            src: '',
+            href: '',
+            video: 'stone',
+            contents: [
+                {
+                    title: "Project Description",
+                    text: "A 2D projectile-based game engine and playable artillery game built in C++ using SDL. I designed and implemented a modular Entity-Component-System (ECS) architecture with an event-driven design to support scalable and maintainable systems. This abstraction enabled loosely coupled interactions across gameplay systems such as input, physics, collision, and game state management. I also developed core gameplay features including projectile physics, destructible terrain, turn-based mechanics, and dynamic camera tracking, delivering the project independently within a 5-week timeframe."
+                },
+                {
+                    title: "Technologies",
+                    text: "C++, SDL3, Visual Studio"
+                }
+            ],
+            title: "Stone"
+        },
+        {
+            src: '',
+            href: '',
+            video: 'allez',
+            contents: [
+                {
+                    title: "Project Description",
+                    text: "A 3D fencing combat game built in Unity as part of a 5-person team. I led the art production pipeline, creating and animating all in-game assets using Blender and preparing them for seamless integration into Unity. I independently self-taught Blender during development and delivered characters, props, and animations under strict milestone deadlines. I also collaborated closely with developers to align art production with gameplay priorities, ensuring consistent and timely feature delivery throughout the project."
+                },
+                {
+                    title: "Technologies",
+                    text: "Blender, C#, Unity"
+                }
+            ],
+            title: "Allez"
+        },
         {
             src: escaper,
             href: 'https://github.com/Kimmm-c/escaper-game-dev',
