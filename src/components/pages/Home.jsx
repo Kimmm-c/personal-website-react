@@ -34,9 +34,16 @@ const Home = () => {
                 </div>
                 <div>
                     <p>
-                        I am a dedicated Computer Science student with a specialization in Predictive Modeling, actively seeking opportunities to apply my academic knowledge to real-world industry challenges. With experience in various roles, including web development and automation testing, I bring a versatile skill set and a passion for technology to every project.
+                        I am a final-year Computer Science student at the British Columbia Institute of Technology (BCIT), specializing in Game Development, with a focus on combining technical systems with visual storytelling. My work and interests sit at the intersection of programming and art, where I enjoy developing gameplay systems as well as contributing to the visual and creative side of game production.
                     </p>
-                    <div className="container">
+                    <p>
+                        As an RPG enthusiast, I am especially motivated by the creation of immersive, player-driven experiences. This has led me to pursue both technical and artistic development, including a foundation in traditional art and ongoing self-directed learning in digital animation.
+                    </p>
+                    <p>
+                        I am particularly interested in technical art as a career direction, where I can apply both my programming and artistic skills. While I am open to a variety of developer roles, I am most excited by opportunities to work within experienced teams, contribute meaningfully to production pipelines, and continue growing toward a technical artist specialization.
+                    </p>
+
+                    {/* <div className="container">
                         {
                             abouts.map((trait, index) => (
                                 <p key={index}>
@@ -49,7 +56,7 @@ const Home = () => {
                             ))
                         }
                     </div>
-                    <p>If my background and skills align with your needs, I would love to connect and discuss how I can contribute to your team!</p>
+                    <p>If my background and skills align with your needs, I would love to connect and discuss how I can contribute to your team!</p> */}
                 </div>
             </div>
 
