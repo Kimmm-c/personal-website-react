@@ -14,7 +14,7 @@ const Projects = () => {
         {
             src: '',
             href: '',
-            video: 'sunkencity',
+            video: sunkencity,
             contents: [
                 {
                     title: "Project Description",
@@ -30,7 +30,7 @@ const Projects = () => {
         {
             src: '',
             href: 'https://github.com/Kimmm-c/Stone.git',
-            video: 'stone',
+            video: stone,
             contents: [
                 {
                     title: "Project Description",
@@ -46,7 +46,7 @@ const Projects = () => {
         {
             src: '',
             href: '',
-            video: 'allez',
+            video: allez,
             contents: [
                 {
                     title: "Project Description",
